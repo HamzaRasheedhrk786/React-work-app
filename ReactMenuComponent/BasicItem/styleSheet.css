@@ -1,0 +1,42 @@
+.menu-item
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.image
+{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.image-icon
+{
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    padding: 4px;
+    /* padding: 4px;
+    z-index: 1;
+    position: absolute;
+    margin-left: -10px; */
+}
+.label-1
+{
+ display: flex;
+ justify-content: flex-start;
+ padding-left: 4px;
+ /* align-items: center;
+ text-align: left; */
+}
+.label-1 > label 
+{
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    /* padding: 2px; */
+}
