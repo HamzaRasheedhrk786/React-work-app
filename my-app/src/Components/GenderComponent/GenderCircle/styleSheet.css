@@ -1,0 +1,53 @@
+.circle-div{
+    width: 160px;
+    height: 160px;
+    border-radius: 60%;
+    /* float: left; */
+    display: flex;
+    float: left;
+    /* align-items: center; */
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+    background: transparent;
+    position: absolute;
+    
+    /* margin-left: 40%; */
+    /* position: relative;
+    margin: auto;
+    text-align: center;   */
+}
+.active{
+    background-color: #070807;
+    color: #EEF4F1;
+}
+.inactive{
+    background-color: #EEF4F1;
+    color: #070807;
+}
+.circle{
+    /* margin-top: 18%; */
+    float: right;
+    padding:0%;
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+    top: 40%;
+    background-color: transparent;
+    transform: translateY(-50%);
+    display: flex-start;
+    margin-left: -70%;
+    align-items: flex-start;
+}  
+.circle-value{
+    font-size:12px;
+    margin: 0; 
+    position: relative;
+    top: 50%;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    /* right: 25%; */
+    transform: translateY(-90%);
+    /* margin-right:30%;   */
+    /* text-align: center;  */
+}

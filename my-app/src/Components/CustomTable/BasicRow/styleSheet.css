@@ -1,0 +1,61 @@
+.icon-field
+{
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    justify-items: center;
+    border-radius: 4px;
+    align-items: center;
+}
+.img{
+    width:60px;
+    height: 60px;
+    border-radius: 30px;
+    padding: 2px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+.text-fields
+{
+    justify-content: left;
+    text-align: left;
+    display: table;
+    margin-left: 4%;
+}
+.text-1
+{
+    display: table-row;
+    font-size: 16px;
+    font-weight: 500;
+}
+.text-2
+{
+    display: table-row;
+    font-size: 14px;
+    font-weight: 400;
+    color: #aaa;
+}
+.TD:first-child {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.TD:last-child{
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.button-coordinator
+{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: rgb(194, 192, 192);
+    font-size: 16px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: 500;
+}
+.field-image
+{
+    padding: 5px;
+}

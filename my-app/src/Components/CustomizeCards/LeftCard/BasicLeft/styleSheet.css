@@ -1,0 +1,68 @@
+.table
+{
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    /* padding: 10%; */
+}
+.left-icon-field
+{
+    width:20px;
+    height: 20px;
+    float: left;
+    z-index: 1;
+    position: absolute;
+    margin-top: 11px;
+    justify-self: center;
+    /* margin-top: 10%; */
+    /* margin-top: 10%; */
+    /* padding: 10px; */
+    color: rgb(109, 109, 109);
+}
+.left-icon-map
+{
+    width:20px;
+    height: 20px;
+    float: left;
+    z-index: 1;
+    position: absolute;
+    margin-top: 18px;
+    justify-self: center;
+    /* margin-top: 10%; */
+    /* margin-top: 10%; */
+    /* padding: 10px; */
+    color: rgb(109, 109, 109);
+}
+.left-icon-number
+{
+    width:20px;
+    height: 20px;
+    float: left;
+    z-index: 1;
+    position: absolute;
+    margin-top: 10px;
+    justify-self: center;
+    /* margin-top: 10%; */
+    /* margin-top: 10%; */
+    /* padding: 10px; */
+    color: rgb(109, 109, 109);
+}
+.middle-uper-label
+{
+    justify-content: left;
+    text-align: left;
+    float: left;
+    font-size: 14px;
+    color:black;
+    font-weight: 600;
+    padding-right: 15px;
+    /* margin-left: 5%; */
+
+}
+.middle-lower-label
+{
+    font-size: 12px;
+    color: #aaa;
+    font-weight: 600;
+    margin-left: 10px;
+}

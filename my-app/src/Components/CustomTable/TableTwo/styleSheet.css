@@ -1,0 +1,45 @@
+.icons-row{
+    font-size: 25px;
+    margin-right: 10px;
+    color: #c2c2c5;
+    display: flex;
+}
+.last-icons
+{
+    display: flex;
+    flex-direction: row;
+    /* overflow-x: auto; */
+    /* width: 50%; */
+}
+.button-cross{
+    border-radius: 50%;
+    /* color: #D1D1D7; */
+    border: 1px solid #aaa;
+    background-color: transparent;
+    width: 40px ;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8%;
+}
+.button-tick{
+    border-radius: 50%;
+    /* color: #D1D1D7; */
+    border: 1px solid #aaa;
+    background-color: transparent;
+    width: 40px ;
+    height: 40px;
+    /* margin-left: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 18px; */
+}
+.icon-button
+{
+    width: 25px;
+    height: 25px;
+    color: #aaa;
+    font-weight: 100;
+}
