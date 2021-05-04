@@ -1,0 +1,20 @@
+/* .labels
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between
+} */
+.labels >.label-1
+{
+    float: left;
+    padding-top: 5px;
+    font-size:16px ;
+    font-weight: 500;
+}
+.labels >.label-2
+{
+    float: right;
+    padding-top: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
